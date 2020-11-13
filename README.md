@@ -1,3 +1,32 @@
+## Drivers WiFi TP-Link Archer T3U Plus AC 1300
+
+v5.6.1 working atm 13/11/2020
+
+## Chipset Realtek RTL88X2BU
+
+## En caso de haber instalado drivers previamente, deberemos quitarlos con el siguiente comando:
+```
+sudo dkms uninstall -m rtl88x2bu/5.6.1
+```
+
+## Comandos para instalación
+
+```
+$ sudo apt install git dkms
+$ git clone https://github.com/cilynx/rtl88x2bu.git
+$ sudo dkms add ./rtl88x2bu
+$ sudo dkms install rtl88x2bu/5.6.1
+```
+
+Una vez instalado podemos reinciar el equipo. No detectará redes wifi sin hacerlo previamente.
+Ayuda: en caso de estar instalado correctamente el USB tendrá una luz parpadenate.
+
+## Source
+https://forums.linuxmint.com/viewtopic.php?t=306929
+
+
+## ---- Original text from original repository ----
+
 # Administrative Note
 
 As of upstream version 5.6.1, I'm moving away from individual repositories for each upstream version in favor of a single repository with version-based branches.  Hopefully, this will help with clutter and URL consistency moving forward.  The archived repositories are available here:
