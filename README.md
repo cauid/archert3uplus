@@ -1,6 +1,6 @@
 ## Drivers WiFi TP-Link Archer T3U Plus AC 1300
 
-v5.6.1 working atm 13/11/2020
+v5.8.7.1 working atm 14/10/2021
 
 ## Chipset Realtek RTL88X2BU
 
