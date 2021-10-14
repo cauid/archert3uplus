@@ -15,7 +15,7 @@ sudo dkms uninstall -m rtl88x2bu/5.6.1
 $ sudo apt install git dkms
 $ git clone https://github.com/cilynx/rtl88x2bu.git
 $ sudo dkms add ./rtl88x2bu
-$ sudo dkms install rtl88x2bu/5.6.1
+$ sudo dkms install rtl88x2bu/5.8.7.1
 ```
 
 Una vez instalado podemos reinciar el equipo. No detectará redes wifi sin hacerlo previamente.
